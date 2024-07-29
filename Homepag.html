@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Site</title>
+    <link rel="stylesheet" href="bootstrap-5.3.3-dist/bootstrap/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+        .video-background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        #background-video {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            min-width: 100%;
+            min-height: 100%;
+            width: auto;
+            height: auto;
+            transform: translate(-50%, -50%);
+            background-size: cover;
+        }
+        .content {
+            position: relative;
+            z-index: 1;
+            color: white;
+            text-align: center;
+            padding: 20px;
+             /* Optional: Adds slight transparency to the background */
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .footer-section {
+            margin: 10px;
+        }
+        .footer-section h3 {
+            margin-bottom: 10px;
+        }
+        .footer-section a {
+            color: #fff;
+            text-decoration: none;
+            display: block;
+            margin: 5px 0;
+        }
+        .footer-section a:hover {
+            text-decoration: underline;
+        }
+        .footer-bottom {
+            margin-top: 20px;
+            border-top: 1px solid #444;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-secondary">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="navbar-brand" href="Homepage.html">Homepage</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="About.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Gallery.html">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <div class="video-background">
+        <video autoplay muted loop id="background-video">
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="content">
+        <h1 style="font-style: italic; font-size: xx-large;">WELCOME TO MY WORLD</h1>
+
+        <P style="font-size: larger; font-style:italic ;">
+            "The Web does not just connect machines, it connects people."
+        </P>
+        
+           
+    </div>
+    <br>
+    <br>
+    <br>
+    <br
+
+
+    <div class="card-group">
+        <div class="card">
+          <img src="eee.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="background-color: cadetblue;">
+            <h5 class="card-title">A lady of intergrity</h5>
+            <p class="card-text"> I uphold strong moral principles and values honesty and fairness in all her actions.
+
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="aaa.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="background-color:darkcyan;">
+            <h5 class="card-title">Always Patient</h5>
+            <p class="card-text">I remain calm and composed, even in difficult situations, understanding that some things take time to resolve.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="ccc.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="background-color: cadetblue;">
+            <h5 class="card-title"></h5>
+            <p class="card-text">Gratitude</p>
+            <p class="card-text"> I appreciate the good in her life and expresses thankfulness for the blessings she receives.
+
+              <small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="card-group">
+        <div class="card">
+          <img src="ddd.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="background-color:darkcyan;">
+            <h5 class="card-title">Respectful</h5>
+            <p class="card-text"> I treat everyone with respect, valuing their opinions and showing consideration for their feelings.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="bbb.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="background-color: cadetblue;">
+            <h5 class="card-title">Couragious</h5>
+            <p class="card-text"> She stands firm in her beliefs and faces challenges with bravery and determination.
+
+            </p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+        <div class="card">
+          <img src="fff.jpg" class="card-img-top" alt="...">
+          <div class="card-body" style="background-color:darkcyan;">
+            <h5 class="card-title">Compassionate</h5>
+            <p class="card-text">She shows empathy and kindness towards others, always willing to help those in need.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>I have the best tech solutions; try me and you won't regret it.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Email: desireasiimwe24@gmail.com</p>
+                <p>Phone: +256 760373796</p>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <a href="Homepage.html">Home</a>
+                <a href="Gallery.html">Gallery</a>
+                <a href="About.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Desire: web developer. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="bootstrap-5.3.3-dist/bootstrap/js/bootstrap.bundle.js"></script>
+</body>
+</html>
